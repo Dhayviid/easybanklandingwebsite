@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Public+Sans:wght@300;400;700&display=swap');
+
+body {
+    position: relative;
+    display: grid;
+    font-family: 'Public Sans','sans-serif';
+    background:  hsl(0, 0%, 98%);
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    background: white;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+
+}
+.logo {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.invite-button1 {
+    padding-right: 230px;
+}
+.btn
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background-image:linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%) ) ;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.btn:hover
+{
+    transform: scale(1.05);
+}
+
+.nav a:hover {
+    background-image:linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%) ) ; 
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    transform: scale(1.05);
+    white-space: nowrap;
+}
+.nav a{ 
+    text-decoration: none;
+    padding-right: 15px;
+    color:  hsl(233, 26%, 24%);;
+}
+.content {
+    background: hsl(220, 16%, 96%);
+    padding: 100px;
+    padding-bottom: 20px;
+    margin-top: -385px;
+}
+.content h1 {
+    font-weight: 300;
+    padding-left: 45px;
+}
+.content p {
+    color: hsl(233, 8%, 62%);
+    padding-left: 45px;
+}
+.text-container{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.picture1 svg {
+    max-width: 100%;
+    width: 100%;
+    transform: translateY(-255px);
+    margin-left: 110px;
+}
+.picture2 {
+    position: absolute;
+    transform: translateY(-20px);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    padding-left: 710px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.text-container-info {
+   margin-left: 148px;
+   text-align: left;
+   padding-top: 120px;
+}
+.text-container h1 {
+    font-size: 35px;
+    font-weight: 200;
+}
+.text-container p{
+    color: hsl(233, 8%, 62%);
+    padding-bottom: 20px;
+}
+.picture1 svg {
+    max-width: 100%;
+    width: 100%;
+    transform: translateY(-255px);
+    margin-left: 110px;
+}
+.picture2 {
+    position: absolute;
+    transform: translateY(-20px);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    padding-left: 710px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.article {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between; 
+    color: hsl(233, 8%, 62%);
+}
+.article h4 {
+    padding-top: 10px;
+}
+.article p {
+    padding: 15px 10px 0 0;
+}
+.article svg:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.15);
+}
+.article-container {
+    padding-left: 140px;
+    margin-bottom: 100px;
+    margin-right: 120px;
+ 
+}
+.article-head {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.article-head .text-head {
+    font-size: 40px;
+    font-weight: 100;
+}
+.adverts {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 4px;
+    background: white;
+}
+.card:hover {
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.card .image-container {
+    width: 100%;
+    height: 100%;
+}
+.card .image-container img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    
+}
+.card-text {
+    margin: 20px;
+}
+.card-text .f-text {
+    font-size: 13px;
+}
+.card p {
+    color: hsl(233, 8%, 62%);
+    font-size: 15px;
+}
+.card-text h3 {
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    background:  hsl(233, 26%, 24%);
+    justify-content: space-between; 
+    padding: 20px; 
+    width: 100%;
+    height: 80%;
+}
+.footer .logo-social {
+    padding: 30px 0 0 140px;
+}
+.footer .logo2 {
+    padding: 0 0 50px 0;
+}
+
+.footer .social {
+    justify-content: space-between;
+    display: flex;
+}
+.footer .nav2{
+    display: flex;
+    padding-left: 2px;
+    margin-top: 20px;
+}
+.nav2 a:hover {
+    background-image:linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%) ) ; 
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    transform: scale(1.05);
+    white-space: nowrap;
+}
+.nav2 a{ 
+    text-decoration: none;
+    padding-right: 15px;
+    color: white;
+}
+.footer-nav {
+    flex-direction: column;
+    display: flex;
+}
+.footer-nav a {
+    padding: 10px;
+}
+.footer .invite-button {
+    margin-top: 30px;
+    margin-right: 150px;
+}
+.footer .invite-button .ivm {
+    padding-left: 90px;
+}
+.footer .invite-button p {
+    color: hsl(233, 8%, 62%);
+}
+
+
+/* @media (max-width:1199px)
+{
+    .adverts{
+        flex-direction: column;
+    }
+} */
